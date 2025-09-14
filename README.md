@@ -95,4 +95,32 @@ pada bagian ini user atau pelanggan diminta untuk memasukan angka untuk memilih 
 
 <img width="966" height="345" alt="image" src="https://github.com/user-attachments/assets/62be414e-b436-411c-a9c9-c5396df6d3e1" />
 
-bagian kode ini adalah pengendali menu utama. Switch-case mengecek pilihan user dan memanggil method yang sesuai di PreOrderService untuk menambah, menampilkan, mengubah, menghapus, atau mencari pre-order. pilihan 6 menghentikan program, sedangkan input yang tidak valid akan menampilkan pesan error. loop do-while membuat menu terus muncul sampai user memilih keluar, dan scanner.close() menutup input setelah program selesai.
+bagian kode ini adalah pengendali menu utama. Switch case mengecek pilihan user dan memanggil method yang sesuai di PreOrderService untuk menambah, menampilkan, mengubah, menghapus, atau mencari pre-order. pilihan 6 menghentikan program, sedangkan input yang tidak valid akan menampilkan pesan error. loop do-while membuat menu terus muncul sampai user memilih keluar, dan scanner.close() menutup input setelah program selesai.
+
+<img width="635" height="305" alt="image" src="https://github.com/user-attachments/assets/f7191318-75e3-4133-bca6-9eca3cbeae88" />
+
+Pengguna diminta untuk memasukan nomor menu yang ingin dituju, pada gambar di atas pengguna memilih menu nomor 1 yaitu membuat pesanan pre order, kemudian pengguna diminta memasukan nama, jenis kain, dan jumlah. 
+
+<img width="859" height="242" alt="image" src="https://github.com/user-attachments/assets/43de551e-05bc-43f5-933f-887b3e1c44ab" />
+
+Apabila pengguna memasukan angka 2, maka informasi pemesanan akan ditampilkan
+
+<img width="893" height="336" alt="image" src="https://github.com/user-attachments/assets/1db3d3c4-ad8e-436f-99d1-02efb643601a" />
+
+jika pengguna memasukan angka 3, pengguna dapat mengupdate pemesanan, dengan syarat pengguna tidak dapat memasukan angka 0. apabila pengguna measukan angka nol, maka informasi pemesnan tidak akan berubah.
+
+<img width="792" height="229" alt="image" src="https://github.com/user-attachments/assets/847ada96-c35c-4286-8617-8c2cc947897b" />
+
+pengguna atau pelanggan dapat melakukan pengecekan kembali dengan menginput angka 2 untuk melihat pesanan yang sudah di ubah.
+
+<img width="840" height="267" alt="image" src="https://github.com/user-attachments/assets/6c44dd02-3117-4c5c-9219-5ffc977a94de" />
+
+fitur ini memungkinkan pengguna untuk melakukan pencarian produk.
+
+<img width="669" height="509" alt="image" src="https://github.com/user-attachments/assets/906a1515-28cb-434c-b6c3-f301db74def0" />
+
+pengguna juga dapat menghapus pre-order dengan memasukan angka 4, apabila sudah memasukan angka 4, maka akan muncul pesan "Data Berhasil Dihapus". setelahnya pengguna dapat mengecek kembali dengan input angka 2 dan menampilkan tidak terdapat data pre-order karena data telah berhasil dihapus.
+
+<img width="861" height="303" alt="image" src="https://github.com/user-attachments/assets/8c9569a8-28c4-4cf8-a2f1-163d9291095a" />
+
+Fitur terakhir dari program ini adalah menu keluar dari program pemesanan dengan menginput angka nomnor 6. akan muncul pesan "Terima Kasih Telah Berkunjung -_-!"
