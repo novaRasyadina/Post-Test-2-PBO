@@ -1,12 +1,15 @@
 # Post Test 2 PBO
 # **Manajemen Pre-Order Kain Songket**
+
 Program ini dibuat dengan aplikasi Java untuk mengelola data pre-order
 kain songket. fitur yang tersedia meliputi menambah pesanan, melihat daftar pesanan, mengubah dan menghapus data. Sedangkan semua data disimpan dalam ArrayList. program ini berjalan berulang dan akan berakhir hingga pengguna memilih menu keluar. 
 
 **# Penjelasan Package #**
 
 <img width="611" height="241" alt="image" src="https://github.com/user-attachments/assets/13adfa79-ea82-48c9-91e2-0719c71431f4" />
+
 Program ini dibuat dengan menggunakan struktur MVC (Model View Controller), yang mana setiap package memiliki peran tanggung jawab spesifik.
+
 * package Model
 
   package ini berisi class PreOrder yang mendefinisikan strukturdaata
